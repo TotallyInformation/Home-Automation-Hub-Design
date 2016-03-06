@@ -46,10 +46,42 @@ In lieu of some actual code (for now), here are some screen-shots to illustrate 
 
 ![More Startup](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/startup1.PNG "More Startup")
 
-### Listening to the hardware controllers
+### Listening to the hardware controllers & publish to MQTT HARDWARE-IN/#
 ![HW Listen](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/02-hw-listen.PNG "Hardware Listen")
 
 ### Sending to the hardware controllers
 ![HW Send](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/03-hw-send.PNG "Hardware Send")
 
-... to be completed ...
+### Translate from MQTT HARDWARE-IN/# messages to SENSORS/#
+![](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/04-mq-hw-in.PNG "")
+
+### Transalate SENSORS/# to individual sensor types and republish to MQTT
+![](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/05-republish.PNG "")
+
+### Scheduled commands
+#### Simple
+![](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/06-schedules-1.PNG "")
+
+#### Complex
+![](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/06-schedules-2.PNG "")
+
+#### Manual Overrides
+![](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/06-schedules-3-manual.PNG "")
+
+### Produce Web Pages (old process)
+![](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/07-webpages-old-1.PNG "")
+
+![](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/07-webpages-old-2.PNG "")
+
+### Subflow: Debug output to a web page
+![](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/99-subflow-01debug.PNG "")
+
+### Subflow: MQTT COMMAND output
+![](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/99-subflow-02cmd_out.PNG "")
+
+### Subflow: Listen for web requests
+![](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/99-subflow-03InputListen.PNG "")
+
+### Subflow: Master web page template
+![](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/99-subflow-04MasterWebPageTemplate.PNG "")
+
