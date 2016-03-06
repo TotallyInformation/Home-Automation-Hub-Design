@@ -39,4 +39,17 @@ I currently have some web pages that I created myself which use my own templates
 Note that currently, there is minimal security turned on so I don't allow any of the pages nor the MQTT traffic to go outside my local network. HTTPS with passwords for the admin interface would be an absolute minimum before I would allow access from the Internet. Even then, I would much prefer to have a separate set of web pages that access the MQTT data only on the server and that then push filtered information out to the Internet. I'll probably set this up via my NAS at some point as that already has a full web server that is already secured for the web.
 
 ## Screenshots
-In lieu of some actual code (for now), here are some screen-shots to illustrate how things fit together. Please feel free to get in touch via the Google Group or my GitHub account, I'm happy to answer questions as best I can.
+In lieu of some actual code (for now), here are some screen-shots to illustrate how things fit together. Please feel free to get in touch via the [Google Group](https://groups.google.com/forum/#!topic/node-red) or my [GitHub account](https://github.com/TotallyInformation/Home-Automation-Hub-Design), I'm happy to answer questions as best I can.
+
+### Startup Process
+![Startup Process](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/startup.PNG "Startup Process")
+
+![More Startup](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/startup1.PNG "More Startup")
+
+### Listening to the hardware controllers
+![HW Listen](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/02-hw-listen.PNG "Hardware Listen")
+
+### Sending to the hardware controllers
+![HW Send](https://github.com/TotallyInformation/Home-Automation-Hub-Design/blob/master/images/03-hw-send.PNG "Hardware Send")
+
+... to be completed ...
